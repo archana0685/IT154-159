@@ -1,0 +1,1 @@
+Rustic Recipes is an online recipe exchange platform where users can browse, rate as well as publish their own recipes. This Web Application was designed using ExpressJS-NodeJS for backend, ReactJS, HTML, CSS for frontend and MongoDB as the database
