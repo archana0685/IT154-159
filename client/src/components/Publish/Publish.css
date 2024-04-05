@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reem Kufi", sans-serif !important;
+}
+.Publish {
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 1900px;
+  margin: 0rem auto;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin-bottom: 2rem;
+}
+
+.recipe-publisher{
+  justify-content: center;
+ 
+}
+
+
+label {
+  margin-top: 10px;
+  display: block;
+  color: #484848;
+}
+
+input[type="text"],
+input[type="radio"] {
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.add-button {
+  margin-top: 5px;
+  padding: 8px 16px;
+  background-color: #fe9e0d;
+  color: #fff;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:  #e48f0f;
+}
+.publish-button{
+  padding: 1rem 2.5rem;
+  background-color: #fe9e0d;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recipe-container{
+  display: flex;
+  flex-direction:column;
+  gap: 5rem;
+  align-items: center;
+  margin-top: 5rem;
+}
+.recipe-container-header{
+  font-size:4rem;
+  color: #242323;
+}
+.recipe-card-holder{
+  /* border: solid 1px;
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+  border-color: #e48f0f; */
+  font-size: 2rem;
+  /* color: #f0eded; */
+  /* background-color: #e48f0f; */
+}
+
+.publish-button:hover{
+  background-color:  #e48f0f;
+}
+ul,
+ol {
+  text-align: left;
+  margin-top: 10px;
+  list-style: square;
+  font-family: "Reem Kufi", sans-serif !important;
+}
+
+ul li,
+ol li {
+  margin-top: 5px;
+}
+.form-heading{
+  font: 100;
+  color: #fe9e0d;
+  justify-content: center;
+}
+.form-container{
+  
+    position: relative;
+    border: solid #e48f0f 1px;
+    background-color: #f0eded;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.recipe-type{
+  display: flex;
+  flex-direction: row;
+  border-color: #e48f0f;
+  border-radius: 2px;
+}
+.page-container{
+  margin-top: 5vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  gap:25px;
+}
+.image-button{
+  position: relative;
+    border: solid #e48f0f 1px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: flex-start;
+    gap: 40px;
+}
+

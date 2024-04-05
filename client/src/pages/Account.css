@@ -1,0 +1,50 @@
+.account-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+
+.account-user-heading{
+    font-size: 5rem;
+    color:#4c4c4c;
+    
+
+}
+.user-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding: 2rem 2rem;
+    gap: 2rem;
+    
+}
+.recipe-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.recipe{
+    border: solid 1px;
+   border-radius: 1rem;
+   border-color: darkorange;
+   padding: 2rem 2rem;
+}
+.recipe:hover{
+    background-color: #d6d4d4;
+    border: solid 1px;
+    border-radius: 1rem;
+   border-color: darkorange;
+   padding: 2rem 2rem;
+   /* outline: black; */
+}
+.user-recipes{
+    margin-top:5rem;
+    margin-right: 50rem;
+}
+.user-recipes-heading{
+    color: #4c4c4c;
+    margin-top: 4rem;
+}
